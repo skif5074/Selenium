@@ -22,7 +22,7 @@ public class InputPhoneTest {
     static void setUpAll() {
         options = new ChromeOptions();
         options.addArguments("--headless");
-        System.setProperty("webdriver.chrome.driver", "driver/linux/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/path/to/chromedriver");
     }
 
     @BeforeEach
